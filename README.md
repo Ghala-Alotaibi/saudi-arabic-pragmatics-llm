@@ -9,6 +9,7 @@ saudi-arabic-pragmatics-llm/
 ├── README.md
 ├── Comparative study — Pragmatic Understanding of Saudi Arabic in LLMs.pdf(IEEE paper)
 ├── Evaluating_Pragmatic_Experiment.ipynb
+├──ArPanEmo_test
 └── code files results/
     ├── accuracy_pragmatics.csv
     ├── accuracy_emotion.csv
