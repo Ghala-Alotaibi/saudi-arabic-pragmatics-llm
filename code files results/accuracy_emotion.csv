@@ -1,0 +1,5 @@
+model,overall_%,n,unparsed
+ALLaM-3rd-7B (baseline),54.0,176,0
+LLaMA-3-8B-Instruct,31.2,176,0
+Qwen2.5-7B-Instruct,43.2,176,0
+Jais-13B,22.7,176,0

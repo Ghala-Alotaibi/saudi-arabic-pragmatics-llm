@@ -1,0 +1,23 @@
+﻿model,id,phenomenon,gold_option,model_chose,raw
+ALLaM-3rd-7B (baseline),sarcasm_03,sarcasm,يسخر من تأخرها الطويل,يمدح سرعتها,2
+ALLaM-3rd-7B (baseline),sarcasm_06,sarcasm,تعاتبه بسخرية على تأخيره,تمدحه على التزامه,2
+LLaMA-3-8B-Instruct,sarcasm_02,sarcasm,يعاتبه بسخرية على قيادته السيئة,يشجعه يتعلم أكثر,3
+LLaMA-3-8B-Instruct,sarcasm_03,sarcasm,يسخر من تأخرها الطويل,يمدح سرعتها,2
+LLaMA-3-8B-Instruct,sarcasm_06,sarcasm,تعاتبه بسخرية على تأخيره,تشكره على الحضور,3
+LLaMA-3-8B-Instruct,indirect_01,indirect_speech_act,تطلب منه بشكل غير مباشر يروح يذاكر,تسأله سؤال عادي عن وجود واجبات,1
+LLaMA-3-8B-Instruct,indirect_03,indirect_speech_act,تطلب منه بشكل غير مباشر يسكت,تشتكي من صعوبة الدرس,2
+LLaMA-3-8B-Instruct,indirect_04,indirect_speech_act,يطلب بشكل غير مباشر يسكرون المكيف أو يعطونه غطا,يسأل عن درجة الحرارة بالخارج,2
+LLaMA-3-8B-Instruct,idiom_02,idiom_proverb,نصيحة بنسيان الماضي والتركيز على المستقبل,تحذير من الموت,2
+LLaMA-3-8B-Instruct,idiom_03,idiom_proverb,التعاون والعمل الجماعي ضروري لتحقيق الأمور,نصيحة بعدم التصفيق بيد وحدة,1
+LLaMA-3-8B-Instruct,idiom_05,idiom_proverb,من لا يهتم بأصله وجذوره ما راح يوصل لمستقبل جيد,نصيحة بالبداية من الآخر,2
+LLaMA-3-8B-Instruct,idiom_06,idiom_proverb,رؤية معاناة الآخرين تجعل الشخص يتقبل مشكلته بشكل أفضل,تحذير من التدخل بمشاكل غيرك,1
+Qwen2.5-7B-Instruct,sarcasm_01,sarcasm,يعاتبه بشكل ساخر على تأخيره,يمدحه لأنه ملتزم بالمواعيد,2
+Qwen2.5-7B-Instruct,sarcasm_03,sarcasm,يسخر من تأخرها الطويل,يمدح سرعتها,2
+Qwen2.5-7B-Instruct,sarcasm_05,sarcasm,يسخر من كسله وعدم مذاكرته,يمدح مجهوده بالمذاكرة,4
+Jais-13B,sarcasm_01,sarcasm,يعاتبه بشكل ساخر على تأخيره,يمدحه لأنه ملتزم بالمواعيد,2
+Jais-13B,sarcasm_02,sarcasm,يعاتبه بسخرية على قيادته السيئة,يشجعه يتعلم أكثر,3
+Jais-13B,sarcasm_03,sarcasm,يسخر من تأخرها الطويل,يمدح سرعتها,2
+Jais-13B,sarcasm_04,sarcasm,يعاتبه بسخرية لأنه نسي,يشكره لأنه تذكر,2
+Jais-13B,sarcasm_06,sarcasm,تعاتبه بسخرية على تأخيره,تمدحه على التزامه,2
+Jais-13B,indirect_04,indirect_speech_act,يطلب بشكل غير مباشر يسكرون المكيف أو يعطونه غطا,يسأل عن درجة الحرارة بالخارج,2
+Jais-13B,idiom_05,idiom_proverb,من لا يهتم بأصله وجذوره ما راح يوصل لمستقبل جيد,نصيحة بالبداية من الآخر,2

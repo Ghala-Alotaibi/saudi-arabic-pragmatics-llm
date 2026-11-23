@@ -1,0 +1,5 @@
+model,same_valence,cross_valence,unparsed,cross_%_of_errors
+ALLaM-3rd-7B (baseline),33,48,0,59.3
+LLaMA-3-8B-Instruct,52,69,0,57.0
+Qwen2.5-7B-Instruct,47,53,0,53.0
+Jais-13B,55,81,0,59.6
