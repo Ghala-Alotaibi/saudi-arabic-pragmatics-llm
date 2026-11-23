@@ -4,6 +4,18 @@ Group 4, Section 63 · Instructor: Dr. Hala Hamdoun
 
 **Team:** Ghala Alotaibi (223047156), Salha Almarri (223042287), Haya Almuslim (223034961)
 
+## Structure
+saudi-arabic-pragmatics-llm/
+├── README.md
+├── Comparative study — Pragmatic Understanding of Saudi Arabic in LLMs.pdf(IEEE paper)
+├── Evaluating_Pragmatic_Experiment.ipynb
+└── code files results/
+    ├── accuracy_pragmatics.csv
+    ├── accuracy_emotion.csv
+    ├── emotion_valence_errors.csv
+    ├── pragmatics_wrong_items.csv
+    └── all_results.json
+
 ## What this is
 A Comparative Study evaluating how well four LLMs understand intended meaning in Saudi Arabic. One identical zero-shot pipeline (same Arabic prompt, temperature 0 greedy decoding, same digit-extraction) is applied to:
 
