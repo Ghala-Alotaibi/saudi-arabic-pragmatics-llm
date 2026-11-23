@@ -4,19 +4,6 @@ Group 4, Section 63 · Instructor: Dr. Hala Hamdoun
 
 **Team:** Ghala Alotaibi (223047156), Salha Almarri (223042287), Haya Almuslim (223034961)
 
-## Structure
-saudi-arabic-pragmatics-llm/
-├── README.md
-├── Comparative study — Pragmatic Understanding of Saudi Arabic in LLMs.pdf(IEEE paper)
-├── Evaluating_Pragmatic_Experiment.ipynb
-├──ArPanEmo_test
-└── code files results/
-    ├── accuracy_pragmatics.csv
-    ├── accuracy_emotion.csv
-    ├── emotion_valence_errors.csv
-    ├── pragmatics_wrong_items.csv
-    └── all_results.json
-
 ## What this is
 A Comparative Study evaluating how well four LLMs understand intended meaning in Saudi Arabic. One identical zero-shot pipeline (same Arabic prompt, temperature 0 greedy decoding, same digit-extraction) is applied to:
 
@@ -25,7 +12,28 @@ A Comparative Study evaluating how well four LLMs understand intended meaning in
 - **LLaMA-3-8B-Instruct**
 - **Qwen2.5-7B-Instruct**
 
-Evaluation:
+
+## Structure
+
+```
+saudi-arabic-pragmatics-llm/
+├── README.md
+├── Evaluating_Pragmatic_Experiment.ipynb
+├── Comparative_Study_Pragmatic_Understanding_Saudi_Arabic_LLMs.pdf
+├── ArPanEmo_test.csv
+└── code files results/
+    ├── accuracy_pragmatics.csv
+    ├── accuracy_emotion.csv
+    ├── emotion_valence_errors.csv
+    ├── pragmatics_wrong_items.csv
+    └── all_results.json
+```
+
+- **Evaluating_Pragmatic_Experiment.ipynb** — the full experiment notebook (Colab-ready).
+- **Comparative_Study_...pdf** — the IEEE Phase I report.
+- **ArPanEmo_test.csv** — test split from Althobaiti (2023), used as the secondary emotion dataset.
+- **code files results/** — generated outputs (accuracy tables, valence errors, wrong items, raw predictions).
+  
 - **Pragmatics:** 18 Saudi-dialect MCQs — 6 sarcasm, 6 indirect speech acts, 6 idioms/proverbs (chance 25%)
 - **Emotion:** ArPanEmo 11-way emotion classification, 176 posts (chance ≈9%)
 
